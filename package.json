@@ -1,0 +1,19 @@
+{
+  "name": "backend-uber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.5.5",
+    "fastify": "^5.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "zod": "^3.23.8"
+  }
+}
